@@ -1,0 +1,26 @@
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\bin\Release\Expertis.Business.Pisos.dll
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\bin\Release\Expertis.Business.Pisos.pdb
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\bin\Release\Expertis.Business.Pisos.xml
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\bin\Release\Expertis.Engine.OraDAL.dll
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\bin\Release\Expertis.Engine.UI.Design.dll
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\obj\Release\ResolveAssemblyReference.cache
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.Resources.resources
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.vbproj.GenerateResource.Cache
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.dll
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.xml
+C:\Users\lgonzalez\AppData\Local\Temporary Projects\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.pdb
+C:\ExpertisNet50R2test\Bin\Expertis.Business.Pisos.dll
+C:\ExpertisNet50R2test\Bin\Expertis.Business.Pisos.pdb
+C:\ExpertisNet50R2test\Bin\Expertis.Business.Pisos.xml
+C:\Users\lgonzalez\Documents\Visual Studio 2008\Projects\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\ResolveAssemblyReference.cache
+C:\Users\lgonzalez\Documents\Visual Studio 2008\Projects\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.Resources.resources
+C:\Users\lgonzalez\Documents\Visual Studio 2008\Projects\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.vbproj.GenerateResource.Cache
+C:\Users\lgonzalez\Documents\Visual Studio 2008\Projects\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.dll
+C:\Users\lgonzalez\Documents\Visual Studio 2008\Projects\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.xml
+C:\Users\lgonzalez\Documents\Visual Studio 2008\Projects\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.pdb
+C:\DES EXP5R2\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\ResolveAssemblyReference.cache
+C:\DES EXP5R2\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.Resources.resources
+C:\DES EXP5R2\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.vbproj.GenerateResource.Cache
+C:\DES EXP5R2\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.dll
+C:\DES EXP5R2\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.xml
+C:\DES EXP5R2\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.pdb
