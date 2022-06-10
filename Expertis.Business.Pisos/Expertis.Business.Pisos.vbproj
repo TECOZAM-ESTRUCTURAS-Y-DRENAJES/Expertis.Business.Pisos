@@ -31,12 +31,13 @@
     <DefineDebug>false</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\..\..\..\..\ExpertisNet50R2test\Bin\</OutputPath>
+    <OutputPath>..\..\..\..\..\..\..\..\..\ExpertisNet50R2test\Bin\</OutputPath>
     <DocumentationFile>Expertis.Business.Pisos.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
+    <Reference Include="Expertis.Business.BusinessEnum, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="Expertis.Engine.BE.BusinessEngine, Version=5.5.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL" />
     <Reference Include="Expertis.Engine.DAL, Version=5.5.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL" />
     <Reference Include="Expertis.Engine.Global, Version=5.5.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL" />
@@ -74,7 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContratosPisos.vb" />
-    <Compile Include="ContratosPisosMes.vb" />
     <Compile Include="PisoContacto.vb" />
     <Compile Include="PisoCuadrilla.vb" />
     <Compile Include="PisoPago.vb" />

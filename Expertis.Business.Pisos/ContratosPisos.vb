@@ -24,7 +24,7 @@ Public Class ContratosPisos
     End Sub
 
     <Task()> Public Shared Sub AsignarValoresPredeterminados(ByVal data As DataRow, ByVal services As ServiceProvider)
-        data("IDPisoContrato") = AdminData.GetAutoNumeric
+        data("IDContrato") = AdminData.GetAutoNumeric
     End Sub
 
     Protected Overrides Sub RegisterUpdateTasks(ByVal updateProcess As Engine.BE.BusinessProcesses.Process)

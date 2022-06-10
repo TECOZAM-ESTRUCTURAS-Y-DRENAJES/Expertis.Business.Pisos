@@ -8,7 +8,7 @@ Public Class PisoCuadrilla
         MyBase.New(cnEntidad)
     End Sub
 
-    Private Const cnEntidad As String = "tbPisoCuadrilla"
+    Private Const cnEntidad As String = "tbPisosCuadrilla"
 
     Protected Overrides Sub RegisterAddnewTasks(ByVal addnewProcess As Engine.BE.BusinessProcesses.Process)
         MyBase.RegisterAddnewTasks(addnewProcess)
@@ -17,12 +17,10 @@ Public Class PisoCuadrilla
 
     <Task()> Public Shared Sub FillDefaultValues(ByVal data As DataRow, ByVal services As ServiceProvider)
         ProcessServer.ExecuteTask(Of DataRow)(AddressOf AsignarValoresPredeterminados, data, services)
-        'ProcessServer.ExecuteTask(Of DataRow)(AddressOf AsignarCentroGestion, data, services)
-        'ProcessServer.ExecuteTask(Of DataRow)(AddressOf AsignarContador, data, services)
     End Sub
 
     <Task()> Public Shared Sub AsignarValoresPredeterminados(ByVal data As DataRow, ByVal services As ServiceProvider)
-        data("IDPisoCuadrilla") = AdminData.GetAutoNumeric
+        data("IDCuadrilla") = AdminData.GetAutoNumeric
     End Sub
 
     Protected Overrides Sub RegisterUpdateTasks(ByVal updateProcess As Engine.BE.BusinessProcesses.Process)
