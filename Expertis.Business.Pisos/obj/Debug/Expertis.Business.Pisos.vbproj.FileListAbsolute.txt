@@ -1,0 +1,13 @@
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\bin\Debug\Expertis.Business.Pisos.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\bin\Debug\Expertis.Business.Pisos.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\bin\Debug\Expertis.Business.Pisos.xml
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\bin\Debug\Expertis.Business.BusinessEnum.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\bin\Debug\Expertis.Engine.OraDAL.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\bin\Debug\Expertis.Engine.UI.Design.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\bin\Debug\Expertis.Business.BusinessEnum.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Debug\Expertis.Business.Pisos.Resources.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Debug\Expertis.Business.Pisos.vbproj.GenerateResource.Cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Debug\Expertis.Business.Pisos.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Debug\Expertis.Business.Pisos.xml
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Debug\Expertis.Business.Pisos.pdb
