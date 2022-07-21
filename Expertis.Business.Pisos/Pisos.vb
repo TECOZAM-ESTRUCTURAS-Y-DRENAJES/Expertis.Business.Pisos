@@ -24,6 +24,7 @@ Public Class Pisos
 
     <Task()> Public Shared Sub AsignarValoresPredeterminados(ByVal data As DataRow, ByVal services As ServiceProvider)
         data("IDPiso") = AdminData.GetAutoNumeric
+        data("IDContrato") = AdminData.GetAutoNumeric
         data("Activo") = True
         data("Bloqueado") = False
     End Sub

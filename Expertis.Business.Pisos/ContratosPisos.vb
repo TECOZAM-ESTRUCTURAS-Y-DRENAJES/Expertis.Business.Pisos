@@ -29,13 +29,11 @@ Public Class ContratosPisos
 
     Protected Overrides Sub RegisterUpdateTasks(ByVal updateProcess As Engine.BE.BusinessProcesses.Process)
         MyBase.RegisterUpdateTasks(updateProcess)
-        updateProcess.AddTask(Of DataRow)(AddressOf AsignarValoresPredeterminados)
+        'updateProcess.AddTask(Of DataRow)(AddressOf AsignarValoresPredeterminados)
     End Sub
 
     Public Sub EjecutarSql(ByVal sql As String)
-
         AdminData.Execute(sql)
-
     End Sub
 
     Function EjecutarSqlSelect(ByVal sql As String)
@@ -44,6 +42,10 @@ Public Class ContratosPisos
         cadena = AdminData.GetData(sql)
         Return cadena
 
+    End Function
+
+    Public Function devuelveAutonumeri()
+        Return AdminData.GetAutoNumeric
     End Function
 
 End Class
