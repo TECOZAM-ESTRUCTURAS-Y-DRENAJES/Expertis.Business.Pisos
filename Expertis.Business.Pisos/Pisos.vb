@@ -24,7 +24,7 @@ Public Class Pisos
 
     <Task()> Public Shared Sub AsignarValoresPredeterminados(ByVal data As DataRow, ByVal services As ServiceProvider)
         data("IDPiso") = AdminData.GetAutoNumeric
-        data("IDContrato") = AdminData.GetAutoNumeric
+        'data("IDContrato") = AdminData.GetAutoNumeric
         data("Activo") = True
         data("Bloqueado") = False
     End Sub
@@ -38,7 +38,6 @@ Public Class Pisos
 
     End Sub
     <Task()> Public Shared Sub checkObligaciones2(ByVal data As DataRow, ByVal services As ServiceProvider)
-
         Try
             Dim cadena As DataTable
             Dim sql As String
@@ -47,19 +46,17 @@ Public Class Pisos
             sql = "select * from tbMaestroPisos where Codigo='" & cod & "'"
             cadena = AdminData.GetData(sql)
             If cadena.Rows.Count <> 0 Then
-                ApplicationService.GenerateError("Ya existe un piso con este nombre(" & cod & ").")
+                ApplicationService.GenerateError("Ya existe un piso con este nombre.")
             End If
         Catch ex As Exception
-
+            ApplicationService.GenerateError("Ya existe un piso con este codigo.")
         End Try
-        
-        'Tambien pone el combo a true
-
     End Sub
 
     Protected Overrides Sub RegisterUpdateTasks(ByVal updateProcess As Engine.BE.BusinessProcesses.Process)
         MyBase.RegisterUpdateTasks(updateProcess)
         updateProcess.AddTask(Of DataRow)(AddressOf checkObligaciones)
+        updateProcess.AddTask(Of DataRow)(AddressOf checkObligaciones2)
 
         'updateProcess.AddTask(Of DataRow)(AddressOf AsignarValoresPredeterminados)
     End Sub
