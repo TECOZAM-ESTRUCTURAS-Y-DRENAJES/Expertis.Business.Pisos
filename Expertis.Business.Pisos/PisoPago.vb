@@ -24,6 +24,7 @@ Public Class PisoPago
 
     <Task()> Public Shared Sub AsignarValoresPredeterminados(ByVal data As DataRow, ByVal services As ServiceProvider)
         data("IDPisoPago") = AdminData.GetAutoNumeric
+        data("Sumatorio") = System.DBNull.Value
     End Sub
 
     Protected Overrides Sub RegisterUpdateTasks(ByVal updateProcess As Engine.BE.BusinessProcesses.Process)
