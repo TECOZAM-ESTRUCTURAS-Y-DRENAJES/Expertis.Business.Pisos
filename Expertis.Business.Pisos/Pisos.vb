@@ -2,6 +2,7 @@
 Imports Solmicro.Expertis.Engine.BE.BusinessProcesses
 Imports Solmicro.Expertis.Engine.DAL
 Imports Solmicro.Expertis.Engine.BE
+Imports Solmicro.Expertis.Engine
 
 Public Class Pisos
 
@@ -56,7 +57,7 @@ Public Class Pisos
     Protected Overrides Sub RegisterUpdateTasks(ByVal updateProcess As Engine.BE.BusinessProcesses.Process)
         MyBase.RegisterUpdateTasks(updateProcess)
         updateProcess.AddTask(Of DataRow)(AddressOf checkObligaciones)
-        updateProcess.AddTask(Of DataRow)(AddressOf checkObligaciones2)
+        'updateProcess.AddTask(Of DataRow)(AddressOf checkObligaciones2)
 
         'updateProcess.AddTask(Of DataRow)(AddressOf AsignarValoresPredeterminados)
     End Sub
@@ -73,4 +74,21 @@ Public Class Pisos
 
     End Function
 
+    Protected Overrides Sub RegisterValidateTasks(ByVal validateProcess As Engine.BE.BusinessProcesses.Process)
+        MyBase.RegisterValidateTasks(validateProcess)
+        validateProcess.AddTask(Of DataRow)(AddressOf ValidarClaveDuplicada)
+    End Sub
+
+    <Task()> Public Shared Sub ValidarClaveDuplicada(ByVal data As DataRow, ByVal services As ServiceProvider)
+        If data.RowState = DataRowState.Added Then
+            Dim ClsPisos As New Pisos
+            Dim filtro As New Engine.Filter
+            filtro.Add("Codigo", FilterOperator.Equal, data("Codigo"))
+
+            Dim dt As DataTable = ClsPisos.Filter(filtro)
+            If dt.Rows.Count > 0 Then
+                ApplicationService.GenerateError("Ya existe un piso con este codigo.")
+            End If
+        End If
+    End Sub
 End Class

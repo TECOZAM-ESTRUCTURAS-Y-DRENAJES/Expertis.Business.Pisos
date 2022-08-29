@@ -77,6 +77,7 @@
     <Compile Include="ContratosPisos.vb" />
     <Compile Include="PisoContacto.vb" />
     <Compile Include="PisoCuadrilla.vb" />
+    <Compile Include="PisoFacturaCompra.vb" />
     <Compile Include="PisoPago.vb" />
     <Compile Include="Pisos.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
