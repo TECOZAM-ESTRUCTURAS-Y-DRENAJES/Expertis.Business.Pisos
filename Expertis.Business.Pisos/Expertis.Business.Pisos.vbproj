@@ -79,6 +79,7 @@
     <Compile Include="PisoCuadrilla.vb" />
     <Compile Include="PisoFacturaCompra.vb" />
     <Compile Include="PisoPago.vb" />
+    <Compile Include="PisoRegistroCompras.vb" />
     <Compile Include="Pisos.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -30,3 +30,9 @@ C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio
 C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.dll
 C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.xml
 C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\BusinessSergio\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.pdb
+C:\Users\dvelasco\Desktop\FuentesExpertis\Business\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dvelasco\Desktop\FuentesExpertis\Business\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.Resources.resources
+C:\Users\dvelasco\Desktop\FuentesExpertis\Business\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.vbproj.GenerateResource.Cache
+C:\Users\dvelasco\Desktop\FuentesExpertis\Business\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.dll
+C:\Users\dvelasco\Desktop\FuentesExpertis\Business\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.xml
+C:\Users\dvelasco\Desktop\FuentesExpertis\Business\Expertis.Business.Pisos\Expertis.Business.Pisos\obj\Release\Expertis.Business.Pisos.pdb
