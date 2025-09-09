@@ -36,7 +36,10 @@ Public Class Pisos
         If data("Vencimiento").ToString.Length = 0 Then
             ApplicationService.GenerateError("Seleccione el tipo de mes, vencido o adelantado")
         End If
-
+        'bcastaño 09/09/25
+        If data("Activo") = True And data("Bloqueado") = True Then
+            ApplicationService.GenerateError("Los campos 'activo' y 'bloqueado' no pueden estar marcados a la vez.")
+        End If
     End Sub
     <Task()> Public Shared Sub checkObligaciones2(ByVal data As DataRow, ByVal services As ServiceProvider)
         Try
